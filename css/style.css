@@ -1,0 +1,638 @@
+
+ /*The entire web application has a responsive design to match a desktop/laptop, a tablet, and a mobile phone */
+/* The color of the header and footer, the flexbox orientation of the nav elements, and the way the articles are stacked in the work section change when the screen changes based on the device being used */
+
+header{
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#img1{
+  background-image: url("logo.jpg");
+}
+
+.photo-11{
+  background-image: url("logo.jpg");
+}
+
+/* The logo of the journalist has been added to meet the acceptance criteria */
+
+.logo{
+  width: 50px;
+}
+
+a:link{
+ color:rgb(176, 176, 148);
+}
+
+a:visited {
+  color: rgb(176, 176, 148);
+}
+
+/* When the mouse hovers over nav elements, they light up 'white' */
+a:hover {
+  color: whitesmoke;
+}
+
+.link:link{
+  color: black;
+}
+
+.link:visited{
+  color: black;
+}
+
+.link:hover{
+  color: goldenrod;
+}
+
+
+
+/* Adding multiple font options to ensure that the priority two, or three fonts are used if the first is not avalable*/
+
+h1 h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Adding design elements around the text */
+
+.shade{
+  width: 200px;
+  padding-left: 100px;
+  padding-right: none;
+  background-color: rgb(255, 255, 255);
+}
+
+/* To ensure that the navigation menu is in a row*/
+
+.menu {
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+}
+
+/* Adding horizontal lines under the navigation elements or underlines, increasing its width*/
+
+.menu li {
+  padding: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+  color: rgb(176, 176, 148);
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgb(176, 176, 148);  
+}
+
+/* The textured background that shows up right under the header. This collapses in the tablet and mobile view */
+.cool-background{
+  background-image: url("image1.jpg");
+  height: 500px; 
+}
+
+.cool-subtitle{
+  position:absolute;
+  top: 500px;
+  left: 1200px;
+  background-color:  rgb(253, 255, 255);
+  width: 200px;
+  padding-right: 200px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px; 
+}
+
+.about-me{
+  display:flex;
+}
+
+.about-me-box{
+  display:flex;
+  padding-left: 100px;
+}
+
+.about{
+  padding-left: 150px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* All the articles/works in the journalist's portfolio are stacked vertically. The first section is larger than the rest to meet acceptance criteria */
+
+.articles{
+
+  display:flex;
+  flex-direction: column;
+  padding-left: 150px;
+  width: 100%;
+}
+
+.work{
+  display:flex;
+  flex-direction: column;
+}
+
+/* The title of each of the articles and their relative positioning */
+
+h3{
+  color: rgb(176, 176, 148);
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: black;
+  position: relative;
+  top: 200px; 
+}
+
+.pworks{
+  color: rgb(176, 176, 148);
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: black;
+  position: relative;
+  top: 400px;
+}
+
+#techblog{
+  background-image: url("2.jpg");
+  background-size: 800px;
+  width: 1200px;
+  height: 300px;
+}
+
+#weatherapi{
+  background-image: url(3.jpg);
+  background-size: 800px;
+  width: 1200px;
+  height: 300px;
+}
+  
+
+
+#workouttracker{
+  background-image: url(4.jpg);
+  background-size: 800px;
+  width: 1200px;
+  height: 300px;
+}
+
+#budgettracker{
+  background-image: url(5.jpg);
+  background-size: 800px;
+  width: 1200px;
+  height: 300px;
+}
+
+/* The size of project-1 is larger than the rest of the projects to meet acceptance criteria */
+.project-1{
+  width: 100%;
+  height: 300px;
+  background-image: url("bg1.jpg"); 
+}
+
+/* When you hover over the images in each project container, their opacity is affected. When you click on the title of the images the user can go to the deployed website. */
+
+
+
+.project-2{
+
+  width:100%;
+  height: 300px;
+  background-image: url("bg2.jpg");
+}
+
+
+.project-3{
+
+  width:100%;
+  height: 300px;
+  background-image: url("bg3.jpg")
+}
+
+
+
+
+.project-4{
+  width:100%;
+  height: 300px;
+  background-image: url("bg4.jpg")
+}
+
+
+
+.project-5{
+  width: 100%;
+  height: 300px;
+  background-image: url("bg5.jpg")
+}
+
+
+
+/* Using flexbox to ensure the elements in the footer are spaced aesthetically */
+
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* The vertical line after each section name */
+
+.vl {
+  border-left: 6px solid black;
+  position: relative;
+  left: 200px;
+ 
+}
+
+.footer-menu{
+
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  padding-left: 150px;
+
+}
+
+/* Making sure the text decoration in the footer elements is such that they change color when hovered upon */
+
+.footer-menu li {
+  padding: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: black;
+  padding-right: 120px;  
+}
+
+.footer-box{
+  justify-content: space-around;
+}
+
+/* Responsive design for the web application */
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */ 
+  
+  .shade{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  header{
+    background-color: rgb(33, 17, 3);
+  }
+
+  nav{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .menu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cool-background{
+    display:none;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about{
+    display: block;
+    padding-left: 0px;
+  }
+
+  .about-me-box{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .about-me{
+    display: block;
+    padding-left: 0px;
+  }
+
+  footer{
+    background-color:  rgb(176, 176, 148);
+  }
+
+
+  .footer-menu{
+    display:flex;
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .articles{
+
+    display:block;
+    padding-left: 0px;
+    width: 100%;
+  }
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+  @media (min-width: 768px) and (max-width: 1024px){
+  
+  .shade{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  header{
+    background-color: rgb(33, 17, 3);
+  }
+
+  nav{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .menu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cool-background{
+    display:none;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about{
+    display: block;
+    padding-left: 0px;
+  }
+
+  .about-me-box{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .about-me{
+    display: block;
+    padding-left: 0px;
+  }
+
+  footer{
+    background-color:  rgb(176, 176, 148);
+  }
+
+
+  .footer-menu{
+    display:flex;
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .articles{
+
+    display:block;
+    padding-left: 0px;
+    width: 100%;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  .shade{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  header{
+    background-color: rgb(67, 4, 67);
+  }
+
+  nav{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .menu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cool-background{
+    display:none;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about{
+    display: block;
+    padding-left: 0px;
+  }
+
+  .about-me-box{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .about-me{
+    display: block;
+    padding-left: 0px;
+  }
+
+  footer{
+    background-color:   rgb(186, 141, 186);
+  }
+
+
+  .footer-menu{
+    display:flex;
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+  }
+
+
+  .articles{
+
+    display:block;
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  .project-1{
+    width: 70%;
+  }
+  .project-2{
+    width: 70%;
+  }
+  .project-3{
+    width: 70%;
+  }
+  .project-4{
+    width: 70%;
+  }
+  .project-5{
+    width: 70%;
+  }
+
+
+#techblog{
+  width: 70%;
+}
+
+#weatherapi{
+  width: 70%;
+}
+  
+
+
+#workouttracker{
+  width: 70%;
+}
+
+#budgettracker{
+  width: 70%;
+}
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .shade{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  header{
+    background-color: rgb(17, 17, 53);
+  }
+
+  nav{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .menu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cool-background{
+    display:none;
+  }
+
+  #varuni-image{
+    display: none;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about{
+    display: block;
+    padding-left: 0px;
+  }
+
+  .about-me-box{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .about-me{
+    display: block;
+    padding-left: 0px;
+  }
+
+  footer{
+    background-color: rgb(118, 118, 161);
+  }
+
+  .footer-menu{
+    display:flex;
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .articles{
+
+    display:block;
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  
+
+  .project-1{
+    width: 70%;
+  }
+  .project-2{
+    width: 70%;
+  }
+  .project-3{
+    width: 70%;
+  }
+  .project-4{
+    width: 70%;
+  }
+  .project-5{
+    width: 70%;
+  }
+
+}
+
+
+
+
