@@ -1,0 +1,237 @@
+<!-- Have used semantic elements such as header, footer, body, main, nav, section and article throughout the website-->
+<!-- This website resembles the mockup, however instead of building a portfolio of a web-developer, have built a portfolio of a journalist. It is my portfolio -->
+
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- Added a relevant title tag here -->
+  <title>Varuni Sinha Full Stack Web Developer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Linking the css stylesheet here -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Adding our website application's content here -->
+  <header>
+    <div class="shade">
+
+      <h1>Varuni Sinha</h1>
+
+    </div>
+
+    <!-- Added a miniature logo below to meet acceptance criteria -->
+
+    <!-- When you click on each item on the nav bar, that contain link to sections about the potential employee, the UI will scroll to the designated section-->
+
+    <nav>
+      <ul class="menu">
+        <li>
+          <img class="logo" src="./css/logo.jpg" alt="logo using letter v">
+        </li>
+
+        <li>
+          <a href="#aboutme">About Me</a>
+        </li>
+
+        <!-- When you click on the link to the section about the employee's work, the UI will scroll to a section with titled images of the employee's work portfolio. 
+              In this case, since the employee is a journalist, these consist of published articles in the mentioned newspapers and magazines. -->
+
+        <li>
+          <a href="#work">Work</a>
+        </li>
+
+        <li>
+          <a href="#contactme">Contact Me</a>
+        </li>
+
+        <li>
+          <a
+            href="https://static1.squarespace.com/static/558b156ee4b050b2d0e1797b/t/610af665c869ed3ca45dcb92/1628108389924/Varuni+Sinha+Resume+.pdf">Resume</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <section>
+      <div class="cool-background">
+        <h2 class="cool-subtitle">Web Developer</h2>
+      </div>
+
+      <div class="vl"></div>
+
+    </section>
+    <br><br>
+
+    <section class="about-me-box">
+      <div class="about-me">
+
+        <div class="vl" index="aboutme"></div>
+        <h2 id="aboutme">About Me <img src="/css/VS.jpg" id='varuni-image' style="width:100px;height:100px;"></h2>
+
+        <div class="photo-add-1">
+
+          <div class="photo-add-1" index="photo-add-1"></div>
+
+        </div>
+
+        <div class="about">
+
+
+          <p>I am a New York City-based writer, photographer, and multimedia producer. I am trained as a cultural
+            journalist with expertise in literature and visual studies. I have written reviews for The Post and Courier,
+            quirky pieces for Time Out New York, and produced Wikipedia entries on art for the Guggenheim.</p>
+          <p>I started my career as a copywriter, creating 360-degree campaigns for global brands such as Panasonic,
+            Yamaha, Alstom, and the Government of India. I am proficient in writing copy for print advertisements,
+            scripting television commercials, feature films, and radio jingles. I have experience curating click worthy
+            digital content for social media across channels aimed at diverse audiences. </p>
+          <p>I have completed courses in visual storytelling from the School of Visual Arts; filmmaking from New York
+            University; and am learning to code from Columbia University. I feel that the way people will interact with
+            stories, whether news articles or books, is about to undergo a radical change in the future. Being equipped
+            with skills to combine new-age technology with an engaging voice as a writer is my current goal. I have
+            continued to learn even after graduating as an arts journalist from the S.I. Newhouse School of Public
+            Communications at Syracuse University.
+          <p>Below you will be able to see the projects I created using HTML, CSS, Javascript, React, NodeJS, MySql and
+            Mongoose during a fullstack coding bootcamp at Columbia Univeristy. The first tab in each project will take
+            you to the LIVE URL where the app is deployed and the second tab, which contains a screenshot of the
+            application, will also take you to the Github repo where the project exists. </p>
+
+
+          </p>
+        </div>
+    </section>
+    <br><br>
+
+    <section class="about-me-box">
+      <div class="about-me">
+
+        <div class="vl"></div>
+        <h2 id="work">Work</h2>
+      </div>
+
+      <!-- When you click on the link to the section about the employee's work, the UI will scroll to a section with titled images of the employee's work portfolio. 
+              In this case, since the employee is a journalist, these consist of published articles in the mentioned newspapers and magazines. -->
+
+
+      <div class="articles">
+
+        <!-- When the user is presented with the first section of the journalist's portfolio, the image is larger, compared to other articles below -->
+        <!-- When you hover over each of the images, the opacity of the section changes  -->
+        <!-- When you click on the title of each of these images, then the user is taken to the deployed application/in this case the published article by the potential employee -->
+
+
+        <article>
+
+          <div class="project-2"><a href="https://techblogvs.herokuapp.com">
+              <h3>Tech Blog</h3>
+            </a></div>
+
+
+        </article>
+
+        <article>
+          <div class="project-2" id="techblog"><a href="https://github.com/varunisinha/techBlog">
+              <h3>Tech Blog Github Repo</h3>
+            </a></div>
+        </article>
+
+
+        <article>
+          <div class="project-3"><a href="https://varunisinha.github.io/weather-api-app/">
+              <h3>Weather Predictor</h3>
+            </a></div>
+        </article>
+
+        <article>
+          <div class="project-3" id="weatherapi"><a href="https://github.com/varunisinha/weather-api-app">
+              <h3>Weather Predictor Github Repo</h3>
+            </a></div>
+        </article>
+
+        <article>
+          <div class="project-4"><a href="https://workout-tracker-vs.herokuapp.com/?id=6196791370686b0016c835f7">
+              <h3>Workout Tracker</h3>
+            </a></div>
+        </article>
+
+        <article>
+          <div class="project-4" id="workouttracker"><a href="https://github.com/varunisinha/workoutTracker">
+              <h3>Workout Tracker Github Repo</h3>
+            </a></div>
+        </article>
+
+        <article>
+          <div class="project-5"><a href="https://budget-tracker-vs.herokuapp.com">
+              <h3>Budget Tracker</h3>
+            </a></div>
+        </article>
+
+        <article>
+          <div class="project-5" id="budgettracker"><a href="https://github.com/varunisinha/budgetTracker">
+              <h3>Budget Tracker Github Repo</h3>
+            </a></div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <br><br>
+
+  <!-- Adding the footer of the portfolio here. These contain links that can be visited upon clicking, such as the employee's website, twitter account, etc. -->
+
+  <footer>
+
+    <section class="about-me-box">
+      <div class="about-me">
+
+        <div class="vl"></div>
+        <h2 id="contactme">Contact Me</h2>
+      </div>
+
+      <div>
+
+        <div class="footer-box">
+          <ul class="footer-menu">
+            <li>
+              <a class="link" href="http://varuni-sinha.squarespace.com/about-me">413.351.5047</a>
+            </li>
+
+            <li>
+              <a class="link" href="http://varuni-sinha.squarespace.com">Website</a>
+            </li>
+
+            <li>
+              <a class="link" href="https://github.com/varunisinha">Github</a>
+            </li>
+
+            <li>
+              <a class="link" href="https://twitter.com/varunisinha">Twitter</a>
+            </li>
+
+            <li>
+              <a class="link" href="https://www.linkedin.com/in/varuni-sinha/">Linkedin</a>
+            </li>
+          </ul>
+
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- The entire web application has a responsive design to match a desktop/laptop, a tablet, and a mobile phone -->
+  </footer>
+
+</body>
+
+</html>
